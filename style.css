@@ -1,0 +1,20 @@
+@keyframes hello {
+    from {background-color: red;}
+    to {background-color: violet; }
+}
+
+@keyframes rainbow {
+    0% {background-color: red;}
+    15% {background-color: orange;}
+    35% {background-color: yellow;}
+    45% {background-color: green;}
+    65% {background-color: blue;}
+    85% {background-color: indigo;}
+    100% {background-color: violet;}
+}
+
+body {
+    animation-name: rainbow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
